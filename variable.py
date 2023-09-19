@@ -1,23 +1,40 @@
-#python variable
+### PYTHON VARIABLE ###
 
-#1st ex
+##creating variable
 crush = "Tirza"
 print(crush)
 
-#2nd ex
+##override variable's value
 kampus = "Polines"
 print(kampus)
 kampus = 1
 print(kampus)
 
-#3rd ex
+##casting variable's value
 favourite_number1 = str(680)
 favourite_number2 = int(680)
 favourite_number3 = float(680)
-print()
-print()
-print()
+print(favourite_number1)
+print(favourite_number2)
+print(favourite_number3)
 
-#4th ex
+##type() fuction -> get the data type of a variable
+nama = "Daniel"
+uang_di_dompet = 10_000
+print(type(nama))
+print(type(uang_di_dompet))
 
+##single or double quotes?
+x = "aiueo"
+print(x)
+x = 'aiueo'
+print(x)
+#these are same
+
+##case-sensitive
+A = "Daniel"
+a = "Tirza"
+print(A)
+print(a)
+#a won't override A
 
