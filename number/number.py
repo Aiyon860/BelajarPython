@@ -1,5 +1,4 @@
 ### PYTHON NUNMBERS ###
-import random # for the last learning of this session (random number)
 
 def FreeSpace():
     print('')
@@ -66,6 +65,3 @@ A = int(140)        # int
 B = float(35.2)     # float
 C = complex(55j)    # complex
 
-
-
-## RANDOM NUMBER
