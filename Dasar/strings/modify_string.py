@@ -17,7 +17,7 @@ print(crush.lower())
 
 freeSpace()
 
-## Remove Whitespace, before and after the actual text, not in the middle of words like space 
+## Remove Whitespace, before and after the actual text, not removing whitespace in the middle of words
 kalimat1 = "  Saya suka makan  "        
 print(kalimat1)
 print(kalimat1.strip())

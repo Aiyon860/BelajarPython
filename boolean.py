@@ -1,0 +1,5 @@
+### BOOLEAN ###
+
+def freeSpace():
+    print('')
+
