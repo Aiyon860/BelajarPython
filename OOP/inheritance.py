@@ -27,7 +27,7 @@ class Employee(VicePresident):
         self.Age = age
         print("This is Employee " + fname)
 
-y = Employee("Budi", "Santoso", 25) # result: "This is Manager Tirza"
+y = Employee("Budi", "Santoso", 25) # result: "This is Employee Budi"
 y.printIdentity()
 
 FreeSpace()
@@ -37,7 +37,7 @@ class Manager(VicePresident):
     def __init__(self, fname, lname, age):
         VicePresident.__init__(self, fname, lname, age)
 
-z = Manager("Tirza", "Nadya Wibowo", 18)
+z = Manager("Tirza", "Nadya Wibowo", 18)    # result: "This is Vice President Tirza"
 z.printIdentity()
 
 FreeSpace()
@@ -62,7 +62,7 @@ class Supervisor(VicePresident):
         else:
             print("Duration of Working: " + f"{self.YearWork}" + " years")
 
-a = Supervisor("Bambang", "Nugroho", 23, 2021, 2023)
+a = Supervisor("Bambang", "Nugroho", 23, 2021, 2023)    # "This is Vice President Bambang"
 print(a.YearAccepted)
 a.entrance()
 
